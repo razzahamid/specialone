@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{3EF5F927-15BC-AD6B-795E-C84E3F4E93A6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Mixamo Face Plus\Editor\FacePlusCalibrationWindow.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Editor\FacePlusConnectorEditor.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Editor\FacePlusEditorWindow.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Editor\FacePlusShaperEditor.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Editor\FuseConfigWindow.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Editor\InternalEditor\FacePlusWindowLoader.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Editor\AVProQuickTimeMovieEditor.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Editor\AVProQuickTimeTextureApplyEditor.cs" />
+     <Compile Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Editor\AVProWindowsMediaMovieEditor.cs" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_HDYC2RGBA.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\Normal-BumpSpecGloss.shader" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Demos\MaterialMappingDemo\Projector Additive.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Character\SDK_Definition.txt" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\RampCubeFresnel.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\RampCube.shader" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_Copy.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_Shared.cginc" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Presets\JointRig-Preset.txt" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_YUY22RGBA.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_Shared.cginc" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\AlphaMultiPass.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_NV12_709.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_YCoCg2RGB.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Petra\tyler-preset.txt" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\EyeSpec.shader" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\Dial.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_YUV2RGB.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Presets\BlendshapeRig-Preset.txt" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\Transparent-Hair-MultiPass.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_YUV7092RGB.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProQuickTime\Shaders\AVProQuickTime_RedBlueSwap.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\Eye.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_RAW_BGRA2RGBA.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\GlossSpec.shader" />
+     <None Include="Assets\Mixamo Face Plus\Examples\Shaders\NewShadier.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_UYVY2RGBA.shader" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_YVYU2RGBA .shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+     <None Include="Assets\Mixamo Face Plus\Video Support\AVProWindowsMedia\Shaders\AVProWindowsMedia_YUV_YUY27092RGBA.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{77A61D56-B9AD-6785-5A5F-B728A0C4204C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{9666B5F9-5407-DDC4-800C-61E32622E54C}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
